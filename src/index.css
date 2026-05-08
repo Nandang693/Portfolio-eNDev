@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #b59177;
+  --color-bg: #d9d9d9;
+  --color-object: #303030;
+  --color-object2: #595959;
+  --color-addition: #c3a393;
+}
+
+body {
+  height: 999px;
+}
+
+.containerCont::-webkit-scrollbar {
+  display: none;
+}
+
+.skillsCont {
+  flex-shrink: 0;
+  min-width: max-content;
+  animation: loop 20s infinite linear;
+  gap: 30px;
+}
+
+h1 span {
+  -webkit-text-stroke: 3px black;
+}
+
+@keyframes loop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 20px));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skillsCont {
+    gap: 5px;
+  }
+
+  @keyframes loop {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 0px));
+    }
+  }
+}
+
+#gambarMpii {
+  display: none;
+}
