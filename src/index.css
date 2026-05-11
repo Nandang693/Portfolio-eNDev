@@ -9,7 +9,8 @@
 }
 
 body {
-  height: 999px;
+  /* height: 99999px; */
+  scroll-behavior: smooth;
 }
 
 .containerCont::-webkit-scrollbar {

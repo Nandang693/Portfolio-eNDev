@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import Hero from '../src/components/Hero';
 import About from './components/About';
-import mpiiSedih from '../src/assets/images/mpii-sedih.png';
-import mpiiSenang from '../src/assets/images/mpii-senang.png';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,9 @@ function App() {
       <section>
         <Hero />
         <About />
+        <Projects />
+        <Contact />
+        <Footer />
       </section>
     </div>
   );

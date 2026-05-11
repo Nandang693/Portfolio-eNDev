@@ -15,9 +15,9 @@ import { Circle } from 'react-feather';
 
 const Hero = () => {
   return (
-    <div className="md:flex flex-col bg-bg w-screen h-screen md:h-[750px]">
+    <div id="Hero" className="md:flex flex-col bg-bg w-full h-screen md:h-[750px]">
       {/* Hero section 1 */}
-      <div className="relative flex bg-primary w-screen pl-10 h-9/10 md:h-7/10">
+      <div className="relative flex bg-bg w-full pl-10 h-9/10 md:h-7/10">
         <div className="flex flex-col mt-5 md:w-1/2">
           <div className="bg-bg w-fit px-5 text-sm">
             <p>Welcome To</p>
