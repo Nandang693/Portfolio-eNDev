@@ -35,7 +35,7 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="absolute flex gap-5 bottom-5 left-4 md:left-10 text-black/50">
+          <div className="absolute flex flex-col gap-5 bottom-5 left-4 md:left-10 text-black/50">
             <a href="mailto:nnanndang@gmail.com" target="_blank" className="flex gap-2">
               <Mail /> nnandangg@gmail.com
             </a>
