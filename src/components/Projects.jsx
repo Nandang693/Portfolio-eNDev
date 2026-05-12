@@ -12,7 +12,7 @@ const Projects = () => {
 
   return (
     <div className="flex flex-col w-full md:h-[700px] bg-bg">
-      <h2 className="text-8xl m-5 font-bold">My Portfolio</h2>
+      <h2 className="md:text-8xl text-6xl m-5 font-extrabold md:font-bold">My Portfolio</h2>
       <div className="border-2 relative w-full bg-object2 overflow-hidden">
         <AnimatePresence mode="wait">
           <a href={ContentData[activeIndex].link} target="_blank" className="relative flex items-center gap-10">

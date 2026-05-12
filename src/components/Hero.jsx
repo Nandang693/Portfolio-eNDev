@@ -8,7 +8,7 @@ import bootstrapLogo from '../assets/images/bootstrap-logo.svg';
 import typescriptLogo from '../assets/images/typescript-logo.svg';
 import mysqlLogo from '../assets/images/mysql-logo.svg';
 import gitLogo from '../assets/images/git-logo.svg';
-import mpii from '../assets/images/mpii.png';
+import profile from '../assets/images/profile.png';
 import { Mail } from 'react-feather';
 import { GitHub } from 'react-feather';
 import { Circle } from 'react-feather';
@@ -27,7 +27,7 @@ const Hero = () => {
           </h1>
           <p className="md:w-[80%] w-[90%] font-extralight md:mt-3 mt-8 text-2xl text-black/60">Front-end Web Developer passionate about creating amazing web experiences with modern technologies like Next.js, React, and TypeScript.</p>
           <div className="mt-15">
-            <button href="#" className="bg-bg mr-5 p-3 font-bold rounded-sm cursor-pointer">
+            <button href="#" className="bg-bg mr-5 p-3 font-bold rounded-sm cursor-pointer border-2">
               Download CV
             </button>
             <a href="#" className="p-3 bg-object text-primary font-bold rounded-sm">
@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
         {/*  */}
         <div className="md:relative absolute md:mr-10 flex md:w-1/2 md:justify-center md:items-center md:right-0 md:top-0 right-12 top-11">
-          <img src={mpii} className=" // md:w-[250px] md:h-[250px] // w-[60px] h-[60px] bg-bg md:rounded-2xl"></img>
+          <img src={profile} className=" // md:w-[250px] md:h-[250px] // w-[60px] h-[60px] bg-bg md:rounded-2xl"></img>
         </div>
       </div>
       {/* Hero section 2 */}
