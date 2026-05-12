@@ -30,7 +30,7 @@ const Hero = () => {
             <button href="#" className="bg-bg mr-5 p-3 font-bold rounded-sm cursor-pointer border-2">
               Download CV
             </button>
-            <a href="#" className="p-3 bg-object text-primary font-bold rounded-sm">
+            <a href="#project" className="p-3 bg-object text-primary font-bold rounded-sm">
               View Project
             </a>
           </div>

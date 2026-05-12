@@ -9,7 +9,7 @@ const Contact = () => {
         <h2 className="md:text-9xl text-6xl font-extrabold ">Contact Me</h2>
         <p className="md:text-2xl text-2xl">Let's get in touch</p>
       </div>
-      <div className="bg-object2 md:h-110 md:w-90 h-full ml-30 mt-15 md:ml-0 md:mt-0">
+      <div className="bg-object2 md:h-110 md:w-90 h-full ml-20 mt-15 md:ml-0 md:mt-0">
         <h4 className="bg-object text-white font-bold m-3 w-fit p-3 px-10 text-4xl mb-10 mt-10">eNDev</h4>
         <div className="flex flex-col gap-3">
           <div className="bg-bg m-3 md:text-2xl text-lg p-3 rounded-xl">

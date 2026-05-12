@@ -5,10 +5,10 @@ import { Twitter } from 'react-feather';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col gap-5 bg-object2">
-      <div className="flex justify-center gap-10 items-center h-auto w-full">
-        <div className="flex-1 ml-15 justify-center items-center">
-          <a href="#Hero" className="font-bold w-fit text-6xl mt-10 hover:text-white cursor-pointer">
+    <footer className="flex flex-col gap-5  bg-object2">
+      <div className="flex justify-center items-center h-auto w-full">
+        <div className="flex flex-col justify-center items-center">
+          <a href="#Hero" className="font-bold w-fit text-6xl  hover:text-white cursor-pointer">
             eNDev
           </a>
           <ul className="flex gap-5 mt-10">
